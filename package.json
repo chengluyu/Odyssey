@@ -1,0 +1,28 @@
+{
+  "name": "odyssey",
+  "version": "0.0.1",
+  "description": "An elegant blog publishing platform, designed for professionals.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint *.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/POW48/Odyssey.git"
+  },
+  "author": "Luyu Cheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/POW48/Odyssey/issues"
+  },
+  "homepage": "https://github.com/POW48/Odyssey#readme",
+  "dependencies": {
+    "koa": "^2.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "prettier": "1.12.1"
+  }
+}
