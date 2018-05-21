@@ -1,8 +1,12 @@
-const Koa = require('koa')
-const app = new Koa()
+const fastify = require('fastify')()
 
-app.use(async ctx => {
-  ctx.body = 'Hello, Odyssey!'
+fastify.get('/', function (request, reply) {
+  reply.send('Hello, Odyssey!')
 })
 
-app.listen(3000)
+fastify.listen(3000, function (err) {
+  if (err) {
+    fastify.log.error(err)
+    process.exit(1)
+  }
+})

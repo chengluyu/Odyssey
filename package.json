@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/POW48/Odyssey#readme",
   "dependencies": {
-    "koa": "^2.5.1"
+    "fastify": "^1.4.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
