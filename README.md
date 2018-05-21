@@ -10,3 +10,7 @@ Valuable contributions are welcome. We strongly recommend you to use Visual Stud
 - ESLint
 - EditorConfig for VS Code
 - Vetur
+
+## License
+
+MIT License
